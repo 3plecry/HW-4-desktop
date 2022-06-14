@@ -348,7 +348,7 @@ margin-bottom: 16px;
 }
 
 .team-soc-icon {
-fill: #AFB1B8;
+fill: currentColor;
 }
 
 .team-soc-list {
@@ -379,8 +379,8 @@ background-color: transparent;
 background-color: var(--accent-color);
 }
 
-.team-icon:hover {
-fill: #ffffff;
+.team-soc-link .team-soc-icon:hover {
+fill: #FFFFFF;
 }
 
 /*------------------------ Clients ---------------------------*/
