@@ -379,6 +379,10 @@ background-color: transparent;
 background-color: var(--accent-color);
 }
 
+.team-soc-icon:hover {
+    fill:#afb1b8 ;
+}
+
 .team-soc-link .team-soc-icon:hover {
 fill: #FFFFFF;
 }
