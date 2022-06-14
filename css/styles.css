@@ -427,12 +427,7 @@ border-color: var(--accent-color);
 }
 
 .clients-soc-icon {
-    fill: #AFB1B8;
-}
-
-.clients-soc-icon {
-    width: 170px;
-    height: 92px;
+    fill: currentColor;
 }
 
 
