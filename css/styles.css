@@ -430,6 +430,10 @@ border-color: var(--accent-color);
     fill: currentColor;
 }
 
+.clients-soc-icon {
+    width: 170px;
+    height: 92px;
+}
 
 /* -------------------FOOTER------------------- */
 
