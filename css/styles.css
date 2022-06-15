@@ -353,6 +353,7 @@ fill: currentColor;
 
 .team-soc-list {
 display: flex;
+list-style: none;
 }
 
 .team-soc-item {
@@ -436,21 +437,31 @@ border-color: var(--accent-color);
 }
 
 .clients-soc-link:hover .clients-soc-icon {
-fill: var(--accent-color);
+fill: currentColor;
 }
 
 /* -------------------FOOTER------------------- */
 
+
+
+.footer {
+display: flex;
+justify-content: center;
+align-items: baseline;
+}
+
 .flex-footer  {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: baseline;
     flex-direction: column;
     }
 
 .footer{
     background-color: #2F303A;
 }
+
+
 
 .logo-footer{
     margin-bottom: 20px;
@@ -510,6 +521,17 @@ margin-right: 93px;
 .footer-tel:hover,.footer-tel:focus, 
 .footer-mail:hover, .footer-mail:focus{
     color: var(--accent-color);
+}
+
+.footer-connect {
+color: #ffffff;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-bottom: 20px;
+margin-top: 0;
 }
 /* ---------------------------Портфолио----------------------------------- */
 
