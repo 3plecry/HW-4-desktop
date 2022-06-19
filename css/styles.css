@@ -481,15 +481,11 @@ border-color: var(--accent-color);
 }
 
 .clients-soc-icon {
-    fill: currentColor;
-}
-
-.clients-soc-icon {
     fill: #afb1b8;
 }
 
-.clients-soc-icon:hover,
-.clients-soc-icon:focus {
+.clients-soc-link:hover .clients-soc-icon, 
+.clients-soc-link:focus .clients-soc-icon {
 fill: var(--accent-color);
 }
 
@@ -619,7 +615,6 @@ margin-left: 0;
 .team-soc-link-footer:hover, .team-soc-link-footer:focus {
     background-color: var(--accent-color);
 }
-
 /* ---------------------------Портфолио----------------------------------- */
 
 .main-item-btn:not(:last-child) {
