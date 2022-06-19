@@ -467,7 +467,8 @@ align-items: center;
     border-radius: 4px;
 }
 
-.clients-soc-link:hover, .clients-soc-link:focus { 
+.clients-soc-link:hover, 
+.clients-soc-link:focus { 
 border-color: var(--accent-color);
 }
 
@@ -490,7 +491,8 @@ border-color: var(--accent-color);
     height: 60px;
 }
 
-.clients-soc-link:hover .clients-soc-icon:hover {
+.clients-soc-link:hover .clients-soc-icon,
+.clients-soc-link:focus .clients-soc-icon {
 fill: var(--accent-color);
 }
 
@@ -618,7 +620,7 @@ margin-left: 0;
     background: rgba(255, 255, 255, 0.1);   
 }
 
-.team-soc-link-footer:hover {
+.team-soc-link-footer:hover, .team-soc-link-footer:focus {
     background-color: var(--accent-color);
 }
 
