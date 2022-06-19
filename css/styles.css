@@ -397,7 +397,7 @@ margin-bottom: 16px;
 }
 
 .team-soc-icon {
-fill: currentColor;
+fill: #AFB1B8;
 }
 
 .team-soc-list {
@@ -491,8 +491,8 @@ border-color: var(--accent-color);
     height: 60px;
 }
 
-.clients-soc-link:hover .clients-soc-icon,
-.clients-soc-link:focus .clients-soc-icon {
+.clients-soc-icon:hover,
+.clients-soc-icon:focus {
 fill: var(--accent-color);
 }
 
