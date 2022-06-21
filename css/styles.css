@@ -142,7 +142,7 @@ color: var(--accent-color);
     margin-right: var(--header-margin);
 }
 
-.header-tel:hover,.header-tel:focus, 
+.header-tel:hover, .header-tel:focus, 
 .header-mail:hover, .header-mail:focus{
     color: var(--accent-color);
     fill: var(--accent-color);
@@ -464,14 +464,16 @@ align-items: center;
     height: 100%;
     border: 1px solid #afb1b8;
     border-radius: 4px;
+    background-color: transparent;
 }
 
 .clients-soc-link:hover, 
-.clients-soc-link:focus { 
+.clients-soc-link:focus {
 border-color: var(--accent-color);
 }
 
 .clients-soc-item {
+    fill: #afb1b8;
     width: 170px;
     height: 92px;
 }
