@@ -119,15 +119,11 @@ color: var(--accent-color);
 .header-icon-mail {
     fill: #757575;
     margin-right: 10px;
-    width: 16px;
-    height: 12px;
 }
 
 .header-icon-tel {
     fill: #757575;
     margin-right: 10px;
-    width: 10px;
-    height: 16px;
 }
 
 .header-tel, .header-mail{
@@ -135,6 +131,7 @@ color: var(--accent-color);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    fill: var(--contacts-color);
     color: var(--contacts-color);
 }
 
@@ -145,26 +142,11 @@ color: var(--accent-color);
 .header-tel:hover, .header-tel:focus, 
 .header-mail:hover, .header-mail:focus{
     color: var(--accent-color);
-}
-
-.header-tel:hover .header-icon-tel {
-fill: var(--accent-color);
-}
-
-.header-tel:focus .header-icon-tel {
-fill: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 .header-list {
     display: flex;
-}
-
-.header-mail:hover .header-icon-mail {
-fill: var(--accent-color);
-}
-
-.header-mail:focus .header-icon-mail {
-fill: var(--accent-color);
 }
 
 .header-item {
