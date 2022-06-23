@@ -117,12 +117,12 @@ color: var(--accent-color);
 }
 
 .header-icon-mail {
-    fill: #757575;
+    fill: currentColor;
     margin-right: 10px;
 }
 
 .header-icon-tel {
-    fill: #757575;
+    fill: currentColor;
     margin-right: 10px;
 }
 
