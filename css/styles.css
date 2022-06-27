@@ -21,11 +21,12 @@ body {
     background: #ffffff;
 }
 .container {
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
 }
+
 
 p,
 h1,
@@ -59,12 +60,6 @@ ul {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
-.section-footer {
-    padding-bottom: 60px;
-    padding-top: 60px;
-}
-
 .section-benefits {
     padding-top: 94px;
 }
@@ -175,7 +170,6 @@ letter-spacing: 0.02em;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 270px 100px 200px 100px;
     flex-grow: 1;
 }
 .container{
@@ -495,9 +489,14 @@ fill: var(--accent-color);
 /* -------------------FOOTER------------------- */
 
 .footer .container {
-    display: flex;
+display: flex;
 justify-content: center;
 align-items: baseline;
+}
+
+.footer-blocks {
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 
 .flex-footer  {
@@ -687,6 +686,14 @@ border-radius: 4px;
 background-color: var(--accent-color);
 color: var(--main-btn-color);
 }
+
+.main-btn:focus{
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+background-color: var(--accent-color);
+color: var(--main-btn-color);
+}
+
 .main-item-text{
 font-weight: 700;
 font-size: 18px;
